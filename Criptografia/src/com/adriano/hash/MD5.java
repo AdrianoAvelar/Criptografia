@@ -35,8 +35,7 @@ public class MD5 {
 		String str_encoded = md5.encode(msg);
 		System.out.println("Enviando Mensagem: "+msg);
 		System.out.println("MD5: " + str_encoded);
-		
-		
+				
 		//Recebendo a mensagem.
 		String msg="Nosso comando é: ";
 		if(md5.encode("Atacar").equals(hash) ){

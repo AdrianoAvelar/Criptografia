@@ -9,6 +9,7 @@ public class Main {
 
 			Criptografia cripto = new Criptografia();
 			
+			
 			System.out.println("plain:   " + plaintext);
 
 			byte[] cipher = cripto.encrypt(plaintext);
