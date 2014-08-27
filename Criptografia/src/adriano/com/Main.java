@@ -1,4 +1,4 @@
-package com.adriano.cripto;
+package adriano.com;
 
 public class Main {
 

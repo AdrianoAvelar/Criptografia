@@ -1,4 +1,4 @@
-package com.adriano.cripto;
+package adriano.com;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
@@ -7,6 +7,7 @@ import javax.crypto.spec.SecretKeySpec;
 public class Criptografia {
   static String IV = "AAAAAAAAAAAAAAAA"; //precisa ter 16 bytes
   static String encryptionKey = "0123456789abcdef"; //precisa ter 16 bytes
+
  
   public byte[] encrypt(String plainText) throws Exception {
 	  
